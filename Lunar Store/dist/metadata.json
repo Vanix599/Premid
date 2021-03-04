@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "Vanix",
+    "id": "743109801168470097"
+  },
+  "service": "Lunar Store",
+  "description": {
+    "en": "Lunar store is webshop for the minecraft pvp client."
+  },
+  "url": [
+    "store.lunarclient.com",
+    "lunarclient.com"
+  ],
+  "version": "1.0.0",
+  "logo": "https://pbs.twimg.com/profile_images/1264790738933604352/HRdlVuvK_400x400.png",
+  "thumbnail": "https://i.imgur.com/jHWdjyU.png",
+  "color": "#555C56",
+  "tags": [
+    "minecraft",
+    "webshop"
+  ],
+  "category": "other"
+}
