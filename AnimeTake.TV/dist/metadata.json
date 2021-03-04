@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schemas.premid.app/metadata/1.0",
+  "author": {
+    "name": "Vanix",
+    "id": "743109801168470097"
+  },
+  "url": "www.animetake.tv",
+  "description": {
+    "en": "Discord RPC for the website AnimeTake.TV"
+  },
+  "service": "AnimeTake",
+  "version": "1.0",
+  "logo": "https://api.faviconkit.com/animetake.tv/144",
+  "thumbnail": "https://animetake.tv/img/logo.jpg",
+  "color": "#F4FF00",
+  "tags": [],
+  "category": "anime"
+}
