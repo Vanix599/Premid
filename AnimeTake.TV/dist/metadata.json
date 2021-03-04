@@ -1,18 +1,24 @@
 {
-  "$schema": "https://schemas.premid.app/metadata/1.0",
   "author": {
     "name": "Vanix",
-    "id": "743109801168470097"
+    "id": "478937019758673931"
   },
-  "url": "www.animetake.tv",
+  "service": "Animetake",
   "description": {
-    "en": "Discord RPC for the website AnimeTake.TV"
+    "en": "Where you can watch anime"
   },
-  "service": "AnimeTake",
-  "version": "1.0",
+  "url": [
+    "animetake.tv",
+    "animetake25.stream",
+    "animetake27.stream"
+  ],
+  "version": "1.2.5",
   "logo": "https://api.faviconkit.com/animetake.tv/144",
   "thumbnail": "https://animetake.tv/img/logo.jpg",
   "color": "#F4FF00",
-  "tags": [],
-  "category": "anime"
+  "tags": [
+    "Anime",
+	"video"
+  ],
+  "category": "Anime"
 }
