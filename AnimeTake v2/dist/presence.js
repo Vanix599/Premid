@@ -31,10 +31,9 @@ presence.on("UpdateData", async () => {
                 url: document.baseURI
             }
         ];
-        data.details = document.querySelector("h2.page_title").textContent;
-        data.state = tv
-            ? document.querySelector("h2.page_title").textContent :
-            data.smallImageKey = video.paused ? "Currently: Paused..." : "Currently: Watching..";
+        data.details = "Watching:";
+        data.state = document.querySelector("h2.page_title").textContent;
+        data.smallImageKey = video.paused ? "pause" : "play";
         data.smallImageText = video.paused
             ? (await strings).pause
             : (await strings).play;
@@ -48,7 +47,7 @@ presence.on("UpdateData", async () => {
     }
     else {
         data.details = (await strings).browsing;
-        data.smallImageKey = "search";
+        data.smallImageKey = "browsing";
         data.smallImageText = (await strings).browsing;
         presence.setActivity(data);
     }
