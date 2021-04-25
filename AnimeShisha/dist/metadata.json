@@ -1,0 +1,24 @@
+{
+  "author": {
+    "name": "Vanix",
+    "id": "743109801168470097"
+  },
+  "service": "animeshisha.xyz",
+  "description": {
+    "en": "AnimeTake is a streaming website where you can watch anime"
+  },
+   "url": [
+    "animeshisha.xyz"
+  ],
+  "version": "2.0.0",
+  "logo": "",
+  "thumbnail": "",
+  "color": "#694ba1",
+  "tags": [
+    "embedded-links",
+    "AnimeTake",
+    "streaming"
+  ],
+  "category": "anime",
+  "iframe": true
+}
